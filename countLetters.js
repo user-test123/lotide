@@ -14,7 +14,7 @@ const assertEqual = function(actual, expected) {
     //needs  to return a proper report on all the strings found in the input array, and respective counts.
     const results = {};
     const allStrings = allItems.split(" ").join(""); 
-    
+
     for (const item of allStrings) {
         
         if (results[item]) {
