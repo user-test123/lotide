@@ -91,7 +91,6 @@ eqObjects(ab, abc); // => false
 assertObjectsEqual(eqObjects(ab, ba), true);
 assertObjectsEqual(eqObjects(ab, abc), false);
 
-
 const cd = { c: "1", d: ["2", 3] };
 const dc = { d: ["2", 3], c: "1" };
 eqObjects(cd, dc); // => true

@@ -9,3 +9,10 @@ if (assertEqual("Lighthouse Labs", "Bootcamp")) {
 } else if (assertEqual(1, 1)) {
   console.log("Assertion Passed: 1 === 1");
 }
+
+// assertEqual("Lighthouse Labs", "Bootcamp");
+// assertEqual(1,1);
+// assertEqual(34,1);
+// assertEqual("hello", "hello");
+
+module.exports = assertEqual;

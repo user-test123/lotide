@@ -7,7 +7,7 @@ const takeUntil = function(array, callback) {
 
         if(!callback(array[i])) {
         // console.log(array[i]);
-            arrResult.push(array[i]);
+            arrResult.push(array[i]);       
             
         } else {
             i = array.length + 1;
